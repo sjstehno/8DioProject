@@ -1,0 +1,178 @@
+module.exports = {
+    url: ('https://8dio.com'),
+    elements: {
+        instrumentsBtn: {
+            selector: ('(//li/a[@class="menu__link js-drop__btn"])[1]'),
+            locateStrategy: 'xpath'
+        },
+        searchBtn: {
+            selector: '//a[@class="header-icon hide-after-550 "]',
+            locateStrategy: 'xpath'
+        },
+        scPlayBtn: {
+            selector: '//path/*[@class="playButton__play"]',
+            locateStrategy: 'xpath'
+        },
+        snapchatLink: {
+            selector: '//a/i[@class="icon icon-pr"]',
+            locateStrategy: 'xpath'
+        },
+        instaLink: {
+            selector: '//a/i[@class="icon icon-in"]',
+            locateStrategy: 'xpath'
+        },
+        fbLink: {
+            selector: '//a/i[@class="icon icon-f"]',
+            locateStrategy: 'xpath'
+        },
+        twLink: {
+            selector: '//a/i[@class="icon icon-tw"]',
+            locateStrategy: 'xpath'
+        },
+        scLink: {
+            selector: '//a/i[@class="icon icon-sound"]',
+            locateStrategy: 'xpath'
+        },
+        ytLink: {
+            selector: '//a/i[@class="icon icon-yt"]',
+            locateStrategy: 'xpath'
+        },
+        defNewsSubBtn: {
+            selector: '//button[@class="btn btn--big btn--red"]',
+            locateStrategy: 'xpath'
+        },
+        mainSearchSingleResult: {
+            selector: ('//a[@class="product product--small"]'),
+            locateStrategy: 'xpath'
+        },
+        addToCart: {
+            selector: '//a[@class="btn btn--red"]',
+            locateStrategy: 'xpath'
+        },
+        goToCart: {
+            selector: '//a[@href="/cart"]',
+            locateStrategy: 'xpath'
+        },
+        removeItem: {
+            selector: '//td[@class="product-remove"]',
+            locateStrategy: 'xpath'
+        },
+        continueShopping: {
+            selector: '//p[@class="return-to-shop"]',
+            locateStrategy: 'xpath'
+        },
+        myAccount: {
+            selector: '//*[@id="wrapper"]/section[1]/div/div/div[4]/ul/li[2]/a',
+            // selector: ('//a[@class="header-icon"]')[1],
+            locateStrategy: 'xpath'
+        },
+        logout: {
+            selector: '//a[@class="account__logout-link light"]',
+            locateStrategy: 'xpath'
+        },
+        popupCloseBtn: {
+            selector: '//button[@class="subscribe__close-btn"]',
+            locateStrategy: 'xpath'
+        },
+        popupSubmitBtn: {
+            selector: ('//button[@class="btn btn--red]'),
+            locateStrategy: 'xpath'
+        },
+        loginSubmitBtn: {
+            selector: '//button[@id="submit-login-btn"]',
+            locateStrategy: 'xpath'
+        },
+        // INPUT FULL SELECTORS
+        defNewsSubInput: {
+            selector: '//p/input[@type="email"]',
+            locateStrategy: 'xpath'
+        },
+        mainSearchInput: {
+            selector: '//input[@class="main-search__input"]',
+            locateStrategy: 'xpath'
+        },
+        loginEmailInput: {
+            selector: '//input[@id="login-email"]',
+            locateStrategy: 'xpath'
+        },
+        loginPassInput: {
+            selector: '//input[@id="login-pass"]',
+            locateStrategy: 'xpath'
+        },
+        popupEmailInput: {
+            selector: '//input[@name="user_email"]',
+            locateStrategy: 'xpath'
+        },
+        // OTHER
+        subCouponCodeDisplay: {
+            selector: '//div[@class="subscribe__coupon-code"]',
+            locateStrategy: 'xpath'
+        },
+        // Anything past this point is a selector added after the initial
+        popupBox: {
+            selector: '//div[@class="subscribe__box"]',
+            locateStrategy: 'xpath'
+        },
+        itemRemovedMessage: {
+            selector: ('(//div[@class="woocommerce-message"])[0]'),
+            locateStrategy: 'xpath'
+        },
+        verifyCartEmpty: {
+            selector: '//p[@class="cart-empty"]',
+            locateStrategy: 'xpath'
+        },
+        homeBtn: {
+            selector: '//a[@class="header__logo in-b"]',
+            locateStrategy: 'xpath'
+        },
+        experimentRemoveItem: {
+            selector: '//*[@id="post-5"]/div/div[3]/div/div[1]/form/table/tbody/tr[1]/td[4]/a',
+            locateStrategy: 'xpath'
+        },
+        landingPage: {
+            selector: '//section[@class="header__banner  w-reset _is-slider"]',
+            locateStrategy: 'xpath'  
+        },
+        leaveReview: {
+            selector: '//i[@class="icon icon-write-review"]',
+            locateStrategy: 'xpath'
+        },
+        reviewInput: {
+            selector: '//*[@id="comment"]',
+            locateStrategy: 'xpath'
+        },
+        reviewTitle: {
+            selector: '//input[@name="title"]',
+            locateStrategy: 'xpath'
+        },
+        fiveStarReview: {
+            selector: ('//a[@class="star-5"]'),
+            locateStrategy: 'xpath'
+        },
+        reviewSubmitBtn: {
+            selector: ('//*[@id="submit"]'),
+            locateStrategy: 'xpath'
+        },
+        leaveReviewHeader: {
+            selector: '//h3[@id="reply-title"]',
+            locateStrategy: 'xpath'
+
+        },
+        playVideo1: {
+            selector: ('(//i[@class="icon icon-watch"])[2]'), 
+            locateStrategy: 'xpath'
+        },
+        videoAreaHeader: {
+            selector: ('(//h2[@class="big text--centred"])[2]'),
+            locateStrategy: 'xpath'
+        },
+        playVideoYoutube: {
+            selector: '//button[@class="ytp-large-play-button ytp-button"]',
+            locateStrategy: 'xpath'
+        },
+        closeVideo: {
+            selector: ('(//i[@class="icon icon-close-thin"])[2]'),
+            locateStrategy: 'xpath'
+        },
+    }
+}
