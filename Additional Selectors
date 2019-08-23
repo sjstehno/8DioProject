@@ -1,0 +1,65 @@
+popupBox: {
+            selector: '//div[@class="subscribe__box"]',
+            locateStrategy: 'xpath'
+        },
+        itemRemovedMessage: {
+            selector: ('(//div[@class="woocommerce-message"])[0]'),
+            locateStrategy: 'xpath'
+        },
+        verifyCartEmpty: {
+            selector: '//p[@class="cart-empty"]',
+            locateStrategy: 'xpath'
+        },
+        homeBtn: {
+            selector: '//a[@class="header__logo in-b"]',
+            locateStrategy: 'xpath'
+        },
+        experimentRemoveItem: {
+            selector: '//*[@id="post-5"]/div/div[3]/div/div[1]/form/table/tbody/tr[1]/td[4]/a',
+            locateStrategy: 'xpath'
+        },
+        landingPage: {
+            selector: '//section[@class="header__banner  w-reset _is-slider"]',
+            locateStrategy: 'xpath'  
+        },
+        leaveReview: {
+            selector: '//i[@class="icon icon-write-review"]',
+            locateStrategy: 'xpath'
+        },
+        reviewInput: {
+            selector: '//*[@id="comment"]',
+            locateStrategy: 'xpath'
+        },
+        reviewTitle: {
+            selector: '//input[@name="title"]',
+            locateStrategy: 'xpath'
+        },
+        fiveStarReview: {
+            selector: ('//a[@class="star-5"]'),
+            locateStrategy: 'xpath'
+        },
+        reviewSubmitBtn: {
+            selector: ('//*[@id="submit"]'),
+            locateStrategy: 'xpath'
+        },
+        leaveReviewHeader: {
+            selector: '//h3[@id="reply-title"]',
+            locateStrategy: 'xpath'
+
+        },
+        playVideo1: {
+            selector: ('(//i[@class="icon icon-watch"])[2]'), 
+            locateStrategy: 'xpath'
+        },
+        videoAreaHeader: {
+            selector: ('(//h2[@class="big text--centred"])[2]'),
+            locateStrategy: 'xpath'
+        },
+        playVideoYoutube: {
+            selector: '//button[@class="ytp-large-play-button ytp-button"]',
+            locateStrategy: 'xpath'
+        },
+        closeVideo: {
+            selector: ('(//i[@class="icon icon-close-thin"])[2]'),
+            locateStrategy: 'xpath'
+        },
